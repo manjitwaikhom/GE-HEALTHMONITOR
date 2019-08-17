@@ -15,6 +15,7 @@ public class Patient {
 	private String patient_name;
 	private String patient_email;
 	private String patient_gender;
+	private String patient_dob;
 	public int getPatient_id() {
 		return patient_id;
 	}
@@ -38,6 +39,12 @@ public class Patient {
 	}
 	public void setPatient_gender(String patient_gender) {
 		this.patient_gender = patient_gender;
+	}
+	public String getPatient_dob() {
+		return patient_dob;
+	}
+	public void setPatient_dob(String patient_dob) {
+		this.patient_dob = patient_dob;
 	}
 	
 	
